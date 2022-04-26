@@ -5,12 +5,9 @@
      scanf("%d",&N);
      for(i=1;i<=N;i++)
      {
-         for(j=1;j<=N;j++)
+         for(j=N;j>=1;j--)
          {
-             if(j==i||i==(N-j+1))
-            printf("x");
-            else
-            printf("0");
+             printf("%d ",j);
              
          }
          printf("
